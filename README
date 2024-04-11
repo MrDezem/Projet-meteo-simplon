@@ -1,0 +1,49 @@
+T# Projet-Météo
+Afficher la météo dans les transports en  commun
+
+L’organisation de votre travail
+S’auto-former
+Suivez la proposition de parcours d’auto-formation au besoin.
+Développer l’application
+● chercher et choisir une API ouverte pour la récupération des données météo,
+● créer les différents fichiers nécessaires, c’est à dire :
+○ un fichier HTML (index.html),
+○ à minima un fichier CSS (style.css),
+○ le fichier de configuration de la ville (conf.json)
+○ et à minima un fichier Javascript (meteo.js),
+● programmer la récupération des données météo depuis l’API. Déboguer en console
+afin de valider votre procédure,
+● intégrer l’interface d’affichage des données météo,
+● intégrer la mise à jour des données météo une fois par heure,
+Tester l’application et livrer
+● validez, puis livrez votre projet sur un dépôt Git en ligne.
+Ressources
+● Git et un dépôt en ligne : Les Tutos - Débuter avec Git et Github en 30 min
+Critères de qualité
+Critères pour pour le projet
+● Les consignes sont respectées dans leur intégralité,
+● la structure html est fonctionnelle et cohérente,
+● les règles css sont fonctionnelles et effectivement liées à la page html.
+→ il n’y a pas de critères concernant les visuels, le design et la mise en page. La ville
+concernée et les informations météo doivent cependant être lisibles sans doute
+possible,
+● les données météo récupérées sont effectivement celle de la ville configurée dans le
+fichier dédié,
+● les données météo sont correctement restituées depuis l’interface,
+● le rafraîchissement des données météo toutes les heures est intégré au programme,
+● les données sont effectivement rafraîchies toutes les heures.
+
+3
+
+Critères pour le jour J
+● Le candidat décrit les tâches qu'il a effectuées pour parvenir à un résultat,
+● le⸱a candidat⸱e explique le fonctionnement logique de la récupération des données
+météo,
+● le⸱a candidat⸱e explique les règles d’intégration des interfaces et des données météo,
+● le⸱a candidat⸱e a identifié les améliorations possibles,
+● le⸱a candidat⸱e a identifié comment ces améliorations pourraient être implémentées
+concrètement et les apprentissages qu’il ou elle devrait faire pour y arriver.
+
+
+depuis un codespace :
+Tapez npm i -g http-server dans le terminal puis http-server pour lancer l'application.
